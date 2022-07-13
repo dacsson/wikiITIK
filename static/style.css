@@ -1,6 +1,8 @@
 body {
-	font-style: sans-serif ;
-	background: #110000 ;
+	font-family: JetBrains Mono, regular;
+	margin-left: 310px ;
+	/*font-style: sans-serif ; */
+	background: #0d1117 ;
 	color: #ccc ;
 }
 
@@ -42,4 +44,48 @@ footer {
 }
 #nextart,#prevart {
 	max-width: 33% ;
+}
+
+/* FOR SIDEBAR */
+.sidenav {
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	top: 20px;
+	left: 0px;
+	font-size: 16px;
+	background: #0d1117;
+	border-color: #373b42;
+	border-width: 1px;
+	border-radius: 0px;
+	border-style: solid;
+	border-left: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.sidenav a {
+	text-align: center;
+	padding: 6px 8px 6px 16px;
+	color: #58a6ff;
+	display: block;
+}
+
+.summary {
+	padding: 6px 0px 6px 16px;
+	left: 10px;
+	color: #ffffff;
+	background: #21262d;
+	border-color: #373b42;
+	border-width: 1px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+}
+
+.date-of-creating {
+	font-style: italic;
+	color: #89929c;	
+	text-align: left;
+	font-size: 14px;
 }
