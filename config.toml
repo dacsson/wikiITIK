@@ -2,3 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'ru'
 title = 'ИИТИК wiki'
 theme = 'lugo'
+
+[taxonomies]
+	author = "author"
+    tags = "tags"

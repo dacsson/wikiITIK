@@ -19,6 +19,14 @@ header h1 {
 	text-align: center ;
 }
 
+.author {
+	text-align: right;
+}
+
+.author a {
+	color: #58a6ff;	
+}
+
 /* For TAGLIST.HTML */
 .taglist {
 	text-align: center ;
