@@ -20,7 +20,7 @@ header h1 {
 }
 
 li {
-	padding: 5px;
+	padding: 5	px;
 }
 
 .author {
@@ -35,6 +35,40 @@ li {
 .taglist {
 	text-align: center ;
 	clear: both ;
+}
+
+/* For SEARCHBAR */
+.search-wrapper {
+	text-align: center ;
+	padding: 15px;
+}
+
+.input {
+	border: 1px solid #373b42;
+    border-radius: 5px;
+    height: 25px;
+	width: 30%;
+	font-size: 14px;
+    padding: 2px 23px 2px 30px;
+    background-color: #21262d;
+	color: #ffffff;
+}
+
+.input:hover, .input:focus {
+    border: 1px solid #58a6ff;
+}
+
+.searchResults {
+	/* Контейнер для результатов поиска */
+}
+
+.search-result-item {
+	padding: 20px;
+}
+
+.search-result-item a {
+	text-decoration: none; 
+	color: #58a6ff;
 }
 
 /* For NEXTPREV.HTML */

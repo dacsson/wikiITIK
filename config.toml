@@ -6,3 +6,6 @@ theme = 'lugo'
 [taxonomies]
 	author = "author"
     tags = "tags"
+
+[outputs]
+    home = ["HTML", "JSON"]
