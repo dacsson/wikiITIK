@@ -52,6 +52,7 @@ li {
     padding: 2px 23px 2px 30px;
     background-color: #21262d;
 	color: #ffffff;
+	font-family: JetBrains Mono, regular;
 }
 
 .input:hover, .input:focus {
