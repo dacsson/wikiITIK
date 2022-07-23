@@ -62,8 +62,10 @@ li {
 .searchResults {
 	position: absolute;
 	left: 46%;
+	width: 23%;
 	top: 25%; 
 	background-color: #0d1117;
+	border: 1px solid #58a6ff;
 }
 
 .search-result-item {
@@ -73,13 +75,6 @@ li {
 .search-result-item a {
 	text-decoration: none; 
 	color: #58a6ff;
-}
-
-.clear-search {
-	all: unset;
-	color: #888;
-	cursor: pointer;
-	transition: color 180ms ease-in-out;
 }
 
 /* For NEXTPREV.HTML */
