@@ -60,7 +60,10 @@ li {
 }
 
 .searchResults {
-	/* Контейнер для результатов поиска */
+	position: absolute;
+	left: 46%;
+	top: 25%; 
+	background-color: #0d1117;
 }
 
 .search-result-item {
@@ -72,10 +75,22 @@ li {
 	color: #58a6ff;
 }
 
+.clear-search {
+	all: unset;
+	color: #888;
+	cursor: pointer;
+	transition: color 180ms ease-in-out;
+}
+
 /* For NEXTPREV.HTML */
 #nextprev {
-	/* The container for both the previous and next articles. */
+	padding-bottom: 45px;
 }
+
+#nextprev a{
+	color: #58a6ff;
+}
+
 #prevart {
 	float: left ;
 	text-align: left ;
